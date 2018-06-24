@@ -1,8 +1,9 @@
 {
   "name": "nerdjs-init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
+  "preferGlobal": true,
   "bin": {
     "nerdjs-init": "nerdjsinit.js"
   },
@@ -14,8 +15,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "shelljs": "^0.8.2"
+  },
+  "keywords": [
+    "javascript",
+    "init",
+    "nerdjs"
+  ],
+  "tags": [
+    "nerdjs",
+    "init"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciock/nerdjs-init"
   }
 }
